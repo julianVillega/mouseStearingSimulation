@@ -10,7 +10,7 @@ import time
 from pynput import mouse, keyboard
 
 # Constants
-MAX_FREQUENCY = 1 / 15  # Maximum tapping frequency (15 times per second)
+MAX_FREQUENCY = 15  # Maximum tapping frequency (15 times per second)
 MIN_FREQUENCY = 0  # Minimum frequency (no tapping)
 
 # Global state
